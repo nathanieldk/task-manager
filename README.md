@@ -100,7 +100,7 @@ Content-Type: application/json
   "email": "user@example.com",
   "username": "johndoe",
   "password": "securepassword",
-  "team_id": "uuid-of-team"
+  "team_id": 1
 }
 ```
 
@@ -125,7 +125,7 @@ Content-Type: application/json
       "id": "uuid",
       "email": "user@example.com",
       "username": "johndoe",
-      "team_id": "uuid"
+      "team_id": 1
     }
   },
   "timestamp": "2026-06-27T12:00:00Z"
