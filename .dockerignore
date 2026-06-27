@@ -1,0 +1,10 @@
+.git
+.gitignore
+README.md
+*.md
+**/*_test.go
+.env
+.env.*
+docker-compose.yml
+.vscode
+.idea

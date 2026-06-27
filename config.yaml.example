@@ -1,0 +1,28 @@
+# Server configuration
+server:
+  port: 8080
+
+# PostgreSQL configuration
+database:
+  host: "localhost"
+  port: 5432
+  user: "postgres"
+  password: "postgres"
+  dbname: "task_database"
+  sslmode: "disable"
+
+# Redis configuration
+redis:
+  host: "localhost"
+  port: 6379
+  password: ""
+  db: 0
+
+# JWT configuration
+jwt:
+  secret: "your-super-secret-jwt-key-change-in-production"
+  expiration_hours: "24h"
+
+# Logger configuration
+logger:
+  file_path: "logs/app.log"
